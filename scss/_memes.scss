@@ -1,0 +1,269 @@
+
+body {
+    //background: $purple;
+  //animation: colorchange 20s infinite; 
+  //-webkit-animation: colorchange 20s infinite; 
+}
+
+@keyframes colorchange
+{
+  0%   {background: $pink;}
+  33%  {background: $blue;}
+  66%  {background: $purple;}
+  100%  {background: $pink;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: $pink;}
+  33%  {background: $blue;}
+  66%  {background: $purple;}
+  100%  {background: $pink;}
+}
+
+div.brand {
+
+    span {
+        vertical-align: -webkit-baseline-middle;
+        text-transform: lowercase;
+        font-size: 70px;
+        color: $theme-fg;
+    }
+
+    p {
+        margin-top: 70px;
+    }
+    img#logo {
+        width: 50px;
+    }
+    margin-bottom: 200px;
+}
+
+img.logo-hero {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+div.root-content {
+    margin-top: 50px;
+}
+
+
+section#hero {
+    //margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+section#solo {
+
+    color: $theme-primary;
+    font-size: 20px;
+
+    strong {
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 22px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* welcome to the grid zone */
+
+div.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media (min-width: 320px) and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    }
+    grid-column-gap: 50px;
+
+
+}
+
+.btn-outline {
+    white-space: inherit !important;
+    transition: all .1s ease-in-out;
+    max-height: 150px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin btn-color($color){
+    @extend .btn-outline;
+    color: $color;
+    border-color: $color;
+    &:hover, :visited, :active, :focus {
+        color: lighten($color, 10%);
+        border-color: lighten($color, 10%);
+        background: inherit !important;
+    }
+}
+.btn:focus {
+    background: inherit !important;
+}
+
+div.settings form {
+    float: right;
+}
+
+.btn-lightblue {
+    @include btn-color($lightblue);
+}
+
+.btn-pink{
+    @include btn-color($pink);
+}
+
+.btn-purple{
+    @include btn-color($purple);
+}
+
+section.portfolio {
+
+    div.items {
+        margin-top: 50px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+div.portfolio-item {
+    margin-bottom: 50px;
+
+    h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+    hr {
+        max-width: 25%;
+    }
+    div.row {
+        padding-top: 50px;
+    }
+
+    div.caption {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    a {
+        word-break: break-word;
+    }
+
+}
+
+div.post-item {
+    .caption-content p {
+        font-weight: 300;
+    }
+}
+
+
+.lightblue {
+    color: $lightblue !important;
+}
+
+.purple {
+    color: $purple !important;
+
+}
+
+.pink {
+    color: $pink !important;
+
+}
+
+.speedy:after {
+    -webkit-animation-duration: 0.3s !important;
+    -moz-animation-duration: 0.3s !important;
+    -ms-animation-duration: 0.3s !important;
+    -o-animation-duration: 0.3s !important;
+    animation-duration: 0.3s !important;
+}
+
+.spooked {
+    color: #f9ff96 !important;
+}
+
+
+
+
+.star-pink, .star-pink:after {
+    color: $star-pink;
+    background-color: $background-grey;
+    border-color: $star-pink;
+}
+
+
+.star-blue, .star-blue:after {
+    color: $star-blue;
+    border-color: $star-blue;
+    background-color: $background-grey;
+}
+
+.star-purple, .star-purple:after {
+    color: $star-purple;
+    border-color: $star-purple;
+    background-color: $background-grey;
+}
+
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 3s linear infinite;
+  -moz-animation: rotating 3s linear infinite;
+  -ms-animation: rotating 3s linear infinite;
+  -o-animation: rotating 3s linear infinite;
+  animation: rotating 3s linear infinite;
+}

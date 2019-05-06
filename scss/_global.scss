@@ -1,0 +1,124 @@
+// Global styling for this template
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  overflow-x: hidden;
+  text-transform: lowercase;
+  height: -webkit-fill-available;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: $theme-fg;
+}
+
+p.small {
+  font-size: 16px;
+}
+
+a,
+a.active,
+a:active,
+a:focus {
+  color: #f191dc;
+  outline: none;
+}
+a:hover {
+  color: lighten(#7869cc, 10%);
+  outline: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+
+  color: $theme-primary;
+}
+
+.star-inline {
+    border: none !important;
+    display: inline-block;
+    text-align: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    &:after {
+        top: 0 !important;;
+    }
+}
+
+
+.star-light,
+.star-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+}
+
+.star-light {
+  border-color: white;
+}
+
+.star-primary {
+  border-color: $theme-primary;
+}
+.img-centered {
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px 0;
+  h2 {
+    font-size: 3em;
+    margin: 0;
+  }
+}
+
+
+input[type=checkbox] {
+
+}
+
+section.success {
+  color: white;
+}
+@media(max-width:767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+
+.scroll-top {
+  position: fixed;
+  z-index: 1049;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+  .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+

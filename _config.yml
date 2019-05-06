@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: purplecon
+email: us@purplecon.nz
+description: >- # this means to ignore newlines until "baseurl:"
+    a nice place for infosec friends to be friends
+    #baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: purpleconnz
+github_username:  purplecon
+# Build settings
+markdown: kramdown
+permalink: /:title
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+logo_url: "https://example.com/logo"
+
+con_heading: "purplecon"
+what_does_purplecon_want: "Your favourite stories about helping people build stuff that’s Strong vs Hackers. Developers writing secure code, security team helping ship it, server warlocks running it. Anything that keeps people safe."
+why_is_purplecon: "we just thought it would be Good."
+can_purplecon_be_a_jp: "heck yeah we love justice"
+where_when: "15 November 2018. The goddAmn Michael Fowler Centre. Wellington, New Zealand."
+is_purplecon_gateway_cloud: "log in, become a presenter, everybody to the data centre"
+who_is_it_for: "Developers, Students, Security People, Nurses, The Illuminati, Elves, Level 8 Wizards. Anyone who wants to learn about defensive computer security."
+cfp_description: "Want to talk at purplecon? Come on down to <a href=\"/cfp\">CFP</a> town. Do <em>not</em> actually send us physical papers. We don't know what to do with them. 
+    We <em>do</em> want speakers to submit some kind of document with their talk. This way, when someone wants to <em>actually</em> use your limitless interdimensional knowledge, they have something to refer to."
+conduct_description: "Everyone attending is expected to follow our <a href=\"/conduct\">Code of Conduct</a>. This means a lot to us and we're not messing around."
+cfp_link: "https://goo.gl/forms/OrqCEm43zyhY8SUW2"

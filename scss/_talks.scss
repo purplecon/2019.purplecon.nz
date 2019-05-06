@@ -1,0 +1,27 @@
+
+hr.divider {
+    border-top: 5px solid rgba(255,255,255,.2)
+}
+section#talks {
+    div.talk {
+        margin-bottom: 100px;
+
+        div.talk-content {
+            margin-bottom: 40px;
+        }
+    }
+    h3 {
+        font-size: 40px;
+    }
+    p {
+        text-align: left;
+        white-space: pre-wrap;
+    }
+}
+
+a.sneaky-anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}

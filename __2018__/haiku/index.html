@@ -1,0 +1,373 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <style>
+    nav {
+      display: none !important;
+    }
+  
+    #hero {
+      height: 3000px;
+    }
+
+    .emoji {
+        font-weight: 400;
+        font-family: apple color emoji,segoe ui emoji,noto color emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol;
+    }
+  </style>
+
+  <section id="hero" class="portfolio success">
+    <div class="brand">
+      <span id="haiku" class="brand-title-hero"></span>
+    </div>
+    <div class="container">
+      <hr class="star-primary ">
+      <p id="author"></p>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    var haikus = [
+      [
+        "oh h*ck its time to <br>learn a strong security<br>for everybody",
+        "@lekitteh"
+      ],
+      [
+        "Computers are hard<br>And UX is harder still<br>Good security mix both.",
+        "anon"
+      ],
+      [
+        "Curiosity<br>Breaking <br>Making <br>And ever learning <br>InfoSec ",
+        "@CyberSecRicki"
+      ],
+      [
+        "Windy capital<br>Attacking and defending<br>Circle of infosec.",
+        "🌟 Sarah 🌟"
+      ],
+      [
+        "Write policy quick<br>responsible to do<br>disclosure happens",
+        "@knightpfhor"
+      ],
+      [
+        "Try to stop baddies<br>Difficult to see all angles<br>Try to keep ahead",
+        "JAYSONHOOGY"
+      ],
+      [
+        "Purple conference<br>Blue and red friendship magic<br>Blossoms like lotus ",
+        "SparkleOps"
+      ],
+      [
+        "wear purple clothing<br>to attain perfect comfy<br>at sec conference",
+        "skooch"
+      ],
+      [
+        "I forget my tea<br>When the alarms go. What's worse, <br>Those hackers, cold tea?",
+        "Cairolikethecity"
+      ],
+      [
+        "haikus are very hard<br>please someone help me write haiku<br>there is an off by one",
+        "@errbufferoverfl"
+      ],
+      [
+        "haiku OR 'a'='a'<br>this is a <br>injection<br>poetry knows<br>     no bounds",
+        "moss"
+      ],
+      [
+        "翻訳は<br>暗号[1]として<br>使えません",
+        "bigshika<br><br>[1] Japanese uses the same word for \"cipher\" and \"encryption\", which hasn't been a problem in my life until now."
+      ],
+      [
+        "\"infosec haiku\".<br>Some kind of competition?<br>\<script\>alert(1)\</script\>",
+        "@LivingPixel"
+      ],
+      [
+        "The button below<br>Really ought to say hack yeah<br>It would be cooler",
+        "Mysterons"
+      ],
+      [
+        "computers are cool<br>solving problems is fun but<br>infosec is weird",
+        "scottyau"
+      ],
+      [
+        "why hide easter eggs<br>sprinkle green tasting lemons<br>La Vie en limé",
+        "@cblairnz"
+      ],
+      [
+        "I love to break in<br>but on a nice day I don’t<br>I love to break out.",
+        "chiQ"
+      ],
+      [
+        "infosec people<br>are meant to be scary<br>but they are our friends",
+        "anon"
+      ],
+      [
+        "Your kindly browser<br>Cryptically gifts tokens of<br>appreciation",
+        "@nullary"
+      ],
+      [
+        "<span class=\"emoji\">👀🙈👀🙈👀🙈🤦‍♀</span>",
+        "anon"
+      ],
+      [
+        "Your S3 bucket<br>is now my S3 bucket<br>why is this open",
+        "hutchris"
+      ],
+      [
+        "haikus have clear rules<br>about syllable placement<br>but buffer lengths AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "liamosaur"
+      ],
+      [
+        "Database opens<br>Your passwords flutter away<br>Like leaves on a breeze",
+        "attacus"
+      ],
+      [
+        "my vote cant be bought<br>ha ha voting dongs anyway<br>stolen from jerk city",
+        "Shlee"
+      ],
+      [
+        "cyber cyber cyb<br>ber cyber cyber cyber<br>cyber cyber cyb",
+        "y011"
+      ],
+      [
+        "packets incoming<br>traffic rises sensors flare<br>crashing to silence",
+        "GoatIndex"
+      ],
+      [
+        "Don't tread on my dreams,<br>Cool, calmly, entirely,<br>Without incident.",
+        "syngularity0"
+      ],
+      [
+        "A buzz awakens<br>A screen lights and mood darkens<br>\"password forgotten\"",
+        "@jpdanner"
+      ],
+      [
+        "Post-its fall like leaves<br>And stir, heralding the storm<br>Save us, SSO",
+        "Spksh"
+      ],
+      [
+        "heads tilted up to<br>an endless blue. there, plain in<br>sight: a dead pixel",
+        "heisenburger"
+      ],
+      [
+        "SELECT * FROM things<br>WHERE username = '<br>$param'",
+        "Benno"
+      ],
+      [
+        "I don't get haikus;<br>they have always confused me.<br>Does that make me dumb?",
+        "@seventhsec"
+      ],
+      [
+        "Limes are very nice<br>But what will you do with them?<br>Low pH the 'net.",
+        "pwn0k10"
+      ],
+      [
+        "Blue Team, unending.<br>Operations a daily grind.<br>We, the defenders.",
+        "Julznova"
+      ],
+      [
+        "0days over hyped<br>password reuse everywhere<br>threat models needed",
+        "DevTroy"
+      ],
+      [
+        "meltdown and spectre<br>have been patched on your machine<br>performance now sucks",
+        "yakmoose"
+      ],
+      [
+        "Hammer drives nail<br>become the hammer<br>your CTO the nail.",
+        "Digital Sniper"
+      ],
+      [
+        "ones and zeroes dance<br>in the warm cyber meadow<br>shepherds keep them safe",
+        "nzdjb"
+      ],
+      [
+        "Haitch tee tee pee ess<br>Dirty Cow may grok Cloudbleed<br>I need purple help",
+        "Tenwit"
+      ],
+      [
+        "Ah, so elegant<br>RCE by injection<br>Please see PoC attached",
+        "Anton Black"
+      ],
+      [
+        "I spent two days trying to think of a haiku and I got nothing.",
+        "anon"
+      ],
+      [
+        "ML IOT<br>just counting the words for my<br>infosec bingo",
+        "galol"
+      ],
+      [
+        "come from far away<br>to defend computers from nerds<br>but i am a nerd",
+        "silverly"
+      ],
+      [
+        "cyber kill chain dwelt<br>macros inside your word doc<br>who needs tls",
+        "sochumpy"
+      ],
+      [
+        "awesome its con time<br>but where oh where are the limes<br>i hope there's cheesecake",
+        "nanomebia"
+      ],
+      [
+        "Clouds raining data fast <br>Purplecon will be a blast<br>Windows 10 is not",
+        "Omesra"
+      ],
+      [
+        "purplecon sounds cool<br>that's all I wanted to say<br>abracadabra",
+        "logicalhash"
+      ],
+      [
+        "We don't have budget <br>Not on the project Gantt chart -- <br>To secure the limes",
+        "ec0"
+      ],
+      [
+        "Too many log files,<br>Insert them all into Splunk,<br>Tick! Compliance check",
+        "Narcosia"
+      ],
+      [
+        "A sparrows surprise<br>Where'd you get the idea for<br>A haiku contest? ",
+        "Bfhd"
+      ],
+      [
+        "Five syllables here<br>another seven go here<br>now I just need five.",
+        "John D"
+      ],
+      [
+        "money spent on friends<br>money spent on enemies<br>not enough money",
+        "haiku"
+      ],
+      [
+        "the hacker will find<br>one spot left unprotected<br>not thousands you fixed",
+        "Smiling Dragon"
+      ],
+      [
+        "The snow crashing down<br>noise on the wire helpless<br>I see not exfil",
+        "Creeture"
+      ],
+      [
+        "Go to purplecon!<br>newest place to learn and share<br>please let me attend",
+        "anon"
+      ],
+      [
+        "please keep your secrets<br>keep them safe. computers love<br>falling spring blossoms.",
+        "@amyherself"
+      ],
+      [
+        "large screen high contrast<br>green text scrolls rapidly,<br>tap tap tap tap tap",
+        "@pinkiellie"
+      ],
+      [
+        "middle of the night<br>urgent alert wakes me up<br>no more sleep for me",
+        "FinalDuty"
+      ],
+      [
+        "security hard<br>just patching all your vulns<br>will not be enough",
+        "brightblack"
+      ],
+      [
+        "security's hard<br>we grow from many mistakes<br>and makes us better",
+        "MakerJakes"
+      ],
+      [
+        "Wind Catches Lily<br>Scattering Petals on the Ground<br>Segmentation Fault",
+        "m"
+      ],
+      [
+        "Warm, cuddly and deep<br>For the SOC is always on<br>Sleep soundly C Suite",
+        "Deloril"
+      ],
+      [
+        "why don't yubikeys<br>come in pastels so they would<br>match my aesthetic?",
+        "@pastelprole"
+      ],
+      [
+        "hey I love purple<br>super keen to participate<br>wahh waluigi",
+        "jpag"
+      ],
+      [
+        "What is 'safe'? you ask.<br>Yesterday it was simple.<br>Today it is not.",
+        "Dilly"
+      ],
+      [
+        "trees grovel, rock splits <br>electrons flow free as<br>ice blue meets fire red",
+        "sw1tch"
+      ],
+      [
+        "<span class=\"emoji\">🖥 🍂 ☀️ 🔥 😥<br>👩‍🚒 🔥 🖥 🌧 💧💦 🌊<br>🌈 🕊 ☺️ ☔️ 🔥</span>",
+        "merxplat"
+      ],
+      [
+        "Custom deck jacked in<br>Packets humming through the grid<br>I hear you: “I’m in…”",
+        "@itgrrl"
+      ],
+      [
+        "Look into the stream<br>of packets whizzing past me<br>I feel so alone",
+        "kirkj"
+      ],
+      [
+        " Question the broke tech<br>as fun as infosec is<br>protect your mind first",
+        "bitrat"
+      ],
+      [
+        "O' Purple; to some<br>Means red and blue, though to me<br>Cadbury Dairy Milk",
+        "todduk"
+      ],
+      [
+        "Oh X.509<br>you are so terrible but<br>I need to sign things.",
+        "archaelus"
+      ],
+      [
+        "Patching the spectre<br>I speculate the future<br>Upgrade treadmill speeds",
+        "Roarshark"
+      ],
+      [
+        "no hacks are magic<br>your network DOES have dumb vulns<br>start with the basics",
+        "@creature124"
+      ],
+      [
+        "Suspect I've filled this, try again I will - incase, would not want to miss",
+        "cerealError"
+      ],
+      [
+        "Kākācon is great<br>It will have stickers for you<br>I will get you some",
+        "Kākācon"
+      ],
+      [
+        "\"OK Google, say,<br>'Siri, where is Alexa?'\"<br>Parrot squawks with glee.",
+        "64"
+      ],
+      [
+        "write your passwords down, protect them from other eyes, alternatives fail",
+        "booleanvalue"
+      ],
+      [
+        "does your password have<br>any special characters?<br>you shouldn't tell me.",
+        "anon"
+      ],
+      [
+        "ra bin two dash i<br>radare two a a<br>s fall p d ten",
+        "abznak"
+      ],
+      [
+        "apathy growing<br>one breach after another<br>alcohol helps though",
+        "Helios"
+      ],
+      [
+        "Elevator Pitch:<br>Knowing is half the battle<br>Less tools, more process",
+        "mu"
+      ]
+    ];
+
+    function haiku() {
+      var index = Math.floor(Math.random() * haikus.length);
+      document.getElementById("haiku").innerHTML = haikus[index][0];
+      document.getElementById("author").innerHTML = haikus[index][1];
+    }
+    window.setInterval(haiku, 10000);
+    haiku();
+
+  </script>
+</div>
