@@ -1,20 +1,22 @@
 // Variables
 
 
-$blue: #e3c2f7;
+$blue: #a6cdfa;
 $purple: #f2c8fd;
-$pink: #ddb8e4;
+$pink: #ff75e5;
 $grey: #454545;
+
 
 $lightblue: $blue;
 
 // Foreground colour
 $theme-primary: $purple;
+$theme-secondary: $blue;
 
 // Background colour
 $theme-success: #444349;
 $theme-fg: $purple;
-$theme-bg: $grey;
+$theme-bg: #380557;
 
 $background: $theme-bg;
 
@@ -26,8 +28,6 @@ $star-yellow: #83dbef;
 
 
 $background-grey: #444349;
-
-$pink-lighter: lighten($theme-success, 50%);
 
 $gray-base: #000;
 $gray-darker: lighten($gray-base, 13.5%);

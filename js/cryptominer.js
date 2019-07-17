@@ -1,4 +1,5 @@
 
+
 //"Juuuuuust kidding"
 $(document).ready(function($) {
     "use strict";
@@ -10,8 +11,19 @@ $(document).ready(function($) {
         color: ["#ff0080","#ff0080","#0000FF"],
         speed: 3,
         overlap: 30
-
     });
+
+    /*
+    $(".sparkle-small").sparkleh({
+        count: 5,
+        color: ["#ff0080","#ff0080","#0000FF"],
+        speed: 10,
+        overlap: 20
+    });
+    */
+
+
+
 
     $("a").sparkleh({
         count: 2,

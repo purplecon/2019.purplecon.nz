@@ -1,10 +1,4 @@
 
-body {
-    //background: $purple;
-  //animation: colorchange 20s infinite; 
-  //-webkit-animation: colorchange 20s infinite; 
-}
-
 @keyframes colorchange
 {
   0%   {background: $pink;}
@@ -36,7 +30,6 @@ div.brand {
     img#logo {
         width: 50px;
     }
-    margin-bottom: 200px;
 }
 
 img.logo-hero {
@@ -53,8 +46,6 @@ div.root-content {
 
 
 section#hero {
-    //margin-top: 200px;
-    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -140,6 +131,11 @@ div.settings form {
     @include btn-color($purple);
 }
 
+span.header {
+    font-weight: bold;
+    color:$blue;
+    display: block;
+}
 section.portfolio {
 
     div.items {
@@ -152,6 +148,7 @@ section.portfolio {
 
 div.portfolio-item {
     margin-bottom: 50px;
+    text-align: left;
 
     h3 {
         text-align: center;
@@ -168,7 +165,11 @@ div.portfolio-item {
         font-size: 30px;
         font-weight: 300;
         margin-top: 10px;
+        p {
+            text-align: left;
+        }
     }
+
 
     a {
         word-break: break-word;

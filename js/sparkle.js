@@ -6,26 +6,7 @@ $(function() {
   // rainbow as a color generates random rainbow colros
   // count determines number of sparkles
   // overlap allows sparkles to migrate... watch out for other dom elements though.
-  $(".sparkley:last").sparkleh({
-    color: "rainbow",
-    count: 100,
-    overlap: 10
-  });
   
-  $(".sparkle").sparkleh({
-    count: 80,
-    color: ["#ff0080","#ff0080","#0000FF"]
-  });
-  
-  
-  
-  $("p").sparkleh({
-    count: 20,
-    color: "#00ff00",
-    speed: 0.05
-  });
-
-
 
 });
 

@@ -4,7 +4,7 @@
 
   text-align: center;
   border-bottom: 1px solid $theme-primary;
-
+background-color: $theme-bg;
   font-weight: bold;
   a,p {
       text-transform: lowercase;
@@ -26,15 +26,15 @@
   .navbar-nav {
     letter-spacing: 1px;
     li.nav-item {
-      .nav-link {
+      a.nav-link {
         color: $theme-primary;
         &:hover {
-          color: $theme-success;
+          color: $theme-secondary;
           outline: none;
         }
         &:active,
         &:focus {
-          color: $theme-primary;
+          color: $theme-secondary;
         }
       }
     }
@@ -48,7 +48,7 @@
     &:focus,
     &:hover {
       color: $theme-primary;
-      border-color: $theme-success;
+      border-color: $theme-secondary;
       background-color: lighten($purple, 50%);
     }
   }

@@ -1,15 +1,14 @@
 // Global styling for this template
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: bold;
   overflow-x: hidden;
   text-transform: lowercase;
+  background: $theme-bg;
   height: -webkit-fill-available;
 }
 
 p {
   font-size: 20px;
-  font-weight: bold;
   color: $theme-fg;
 }
 
@@ -21,11 +20,11 @@ a,
 a.active,
 a:active,
 a:focus {
-  color: #f191dc;
+  color: $pink;
   outline: none;
 }
 a:hover {
-  color: lighten(#7869cc, 10%);
+  color: $theme-secondary;
   outline: none;
   text-decoration: none;
 }
