@@ -27,16 +27,15 @@ div.brand {
     p {
         margin-top: 70px;
     }
-    img#logo {
-        width: 50px;
+
+    div.logo {
+        display: inline-block;
+        img.logo-hero {
+            height: 70px;
+            margin-right: 5px;
+            margin-top: 5px;
+        }
     }
-}
-
-img.logo-hero {
-    width: 250px;
-    display: block;
-    margin: 0 auto;
-
 }
 
 
@@ -53,10 +52,6 @@ section#solo {
 
     color: $theme-primary;
     font-size: 20px;
-
-    strong {
-        text-decoration: underline;
-    }
 
     p {
         text-align: left;

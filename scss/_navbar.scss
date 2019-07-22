@@ -24,6 +24,8 @@ background-color: $theme-bg;
     }
   }
   .navbar-nav {
+
+
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
@@ -49,7 +51,7 @@ background-color: $theme-bg;
     &:hover {
       color: $theme-primary;
       border-color: $theme-secondary;
-      background-color: lighten($purple, 50%);
+      background-color: $theme-bg;
     }
   }
 }
@@ -67,7 +69,7 @@ background-color: $theme-bg;
       transition: all 0.3s;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
+      color: $theme-fg;
       border-radius: 3px;
       background: $theme-success;
       &:active,
