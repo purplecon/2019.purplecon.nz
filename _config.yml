@@ -19,7 +19,7 @@ email: us@purplecon.nz
 description: >-
     #baseurl: "/"
 url: "http://purplecon.nz"
-twitter_username: purpleconnz
+twitter_username: purplecon_nz
 github_username:  purplecon
 # Build settings
 markdown: kramdown
