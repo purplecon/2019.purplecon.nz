@@ -133,11 +133,22 @@ span.header {
 }
 section.portfolio {
 
+    font-size: 20px;
+    color: $theme-fg;
     div.items {
         margin-top: 50px;
     }
     p {
         text-align: center;
+    }
+}
+
+.container-thin { 
+    @media (min-width: 1200px)  {
+    p {
+        text-align: left;
+    }
+        max-width: 800px;
     }
 }
 
