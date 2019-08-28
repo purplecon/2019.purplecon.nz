@@ -575,11 +575,19 @@ span.header {
   color: #a6cdfa;
   display: block; }
 
-section.portfolio div.items {
-  margin-top: 50px; }
+section.portfolio {
+  font-size: 20px;
+  color: #f2c8fd; }
+  section.portfolio div.items {
+    margin-top: 50px; }
+  section.portfolio p {
+    text-align: center; }
 
-section.portfolio p {
-  text-align: center; }
+@media (min-width: 1200px) {
+  .container-thin {
+    max-width: 800px; }
+    .container-thin p {
+      text-align: left; } }
 
 div.portfolio-item {
   margin-bottom: 50px;
