@@ -620,6 +620,14 @@ div.post-item .caption-content p {
 .pink {
   color: #ff75e5 !important; }
 
+div.merch-previews {
+  text-align: center; }
+  div.merch-previews img {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px; }
+
 .speedy:after {
   -webkit-animation-duration: 0.3s !important;
   -moz-animation-duration: 0.3s !important;
