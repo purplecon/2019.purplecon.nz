@@ -204,6 +204,17 @@ div.post-item {
 
 }
 
+div.merch-previews {
+    text-align: center;
+    img {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px;
+        width: 300px;
+
+    }
+}
+
 .speedy:after {
     -webkit-animation-duration: 0.3s !important;
     -moz-animation-duration: 0.3s !important;
