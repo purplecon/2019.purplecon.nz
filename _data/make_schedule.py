@@ -1,5 +1,5 @@
-
 import csv
+import sys
 import string
 
 def make_id(title):
@@ -11,11 +11,14 @@ def make_id(title):
 
 
 rows = []
-with open('schedule.csv', newline='') as csvfile:
-     reader = csv.reader(csvfile)
+with open(sys.argv[1], newline='') as csvfile:
+     reader = csv.reader(csvfile, delimiter="\t")
      for row in reader:
          speaker= row[1]
          talkid = make_id(speaker)
+         time = row[0]
+         if not talkid or not time:
+             continue
          print(talkid)
          row.append(talkid)
          rows.append(row)
