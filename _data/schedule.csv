@@ -1,23 +1,23 @@
-start_time,speaker,title,id
-9:00,purplecon team,opening ritual,
-9:15,serena chen,"like, comment and subscribe: effective communication of security advice",serena-chen
-9:35,errbufferoverfl,Agloe - What the map makers of the 1930s can teach us about protecting our data in 2018.,errbufferoverfl
-9:55,Moss,Do you know what your containers are made of?,moss
-10:15,SparkleOps,Caring for our pen tester friends ,sparkleops
-10:45,attendees/deviants,morning tea ceremony,
-11:15,Mike Loss,Making Pentesters Sad: Low-hanging Fruit For Enterprise Defenders,mike-loss
-11:45,Sophie Richardson ,Encoding Privacy ,sophie-richardson
-12:05,Petra Smith,Advanced Endpoint Protection: Securing the Meaty Bits,petra-smith
-12:25,a wholesome community,l u n c h / breakout sessions,
-13:25,liamosaur,building castles - a metaphorical journey through time and space,liamosaur
-13:55,Duck Lawn & Alix Klingenberg,How .tf to do Infrastructure as Code,duck-lawn-alix-klingenberg
-14:25,Craig H. Rowland,Linux Rapid Compromise Assessment,craig-h-rowland
-14:55,Anton Black,What does it take to run a bug bounty program?,anton-black
-15:15,"us, brave in the face of the future",afternoon tea ceremony,
-15:45,Bryan Nolen,Surviving Your First Incident,bryan-nolen
-16:00,Benno Rice,WebAuthn: Multi-factor Auth for Everyone!,benno-rice
-16:15,Chris,"Roast Criminals, not Marshmallows",chris
-16:30,Judy Ting-Edwards,Cyber Ethics: 10 Cmdlets to Creating Trust in Cyberspace,judy-tingedwards
-16:45,attacus,Developers Against the Dark Arts,attacus
-17:15,purplecon team,closing ritual,
-17:45,our true selves,scatter ourselves to the night like leaves on the wind,
+time,speaker_name,talk_title,Length,Talks,Padding,Breaks,,,speakername
+9:20,purplecon team,opening ritual,15,,,,,,
+9:35,sauramaia,how to human in groups,20,,,,,,sauramaia
+10:00,sera,IAM Groot (working title),15,,,,,,sera
+10:15,Shahn Harris,Embracing Empathy,20,,,,,,shahn-harris
+10:35,you!,morning tea ceremony,40,70,,40,,,
+11:15,William,*banging fists on table* STATE MACHINES STATE MACHINES,20,,,,,,william
+11:35,Mikala Easte,Risk management without slowing down,15,,,,,,mikala-easte
+11:50,moss,choose your own adventure: password reset,20,,,,,,moss
+12:10,bl3ep,a novice red teamer's guide to self help,20,,,,,,bl3ep
+12:30,you!,l u n c h,100,75,,100,,,
+14:10,Karla,"2 Factor, 4 Humans",20,,,,,,karla
+14:30,Ben Dechrai,To Identity and Beyond!,20,,,,,,ben-dechrai
+14:50,Anton Black,"Against Lies, H*cking Lies",15,,,,,,anton-black
+15:05,Kirk,Incident Response Drills: How to play games and get good,20,,,,,,kirk
+15:25,you!,afternoon tea and hanging out,70,345,,70,,,
+16:35,Helen,An Introduction to Ghidra,5,,,,,,helen
+16:40,Tom Eastman,Protecting people from social media harassment.,5,,,,,,tom-eastman
+16:45,Mike Cohen,Velociraptor - Dig Deeper,5,,,,,,mike-cohen
+16:50,Brendan Shaklovitz,face your fearful foes to dodge a dark and dreary phishy fate,5,,,,,,brendan-shaklovitz
+17:00,Laura Bell ,Security confessions of a small country,25,,,,,,laura-bell
+17:25,purplecon team,closing ritual,20,,,,,,
+17:45,you!,freeedom,60,65,,,,,

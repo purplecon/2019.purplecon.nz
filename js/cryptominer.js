@@ -28,6 +28,13 @@ $(document).ready(function($) {
         overlap: 10
     });
 
+    $(".sparkle-less").sparkleh({
+        count: 5,
+        color: ["#ff0080","#ff0080","#0000FF"],
+        speed: 2,
+        overlap: 5
+    });
+
 
 
 

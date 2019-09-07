@@ -4,7 +4,7 @@ hr.divider {
 }
 section#talks {
     div.talk {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
 
         div.talk-content {
             margin-bottom: 40px;
@@ -17,6 +17,16 @@ section#talks {
         text-align: left;
         white-space: pre-wrap;
     }
+}
+
+h3.talk-title {
+    color: $pink;
+}
+h4.speaker {
+    .speaker-prefix {
+        color: $theme-fg;
+    }
+    color: $blue;
 }
 
 a.sneaky-anchor {

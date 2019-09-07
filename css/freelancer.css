@@ -744,7 +744,7 @@ hr.divider {
   border-top: 5px solid rgba(255, 255, 255, 0.2); }
 
 section#talks div.talk {
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
   section#talks div.talk div.talk-content {
     margin-bottom: 40px; }
 
@@ -754,6 +754,14 @@ section#talks h3 {
 section#talks p {
   text-align: left;
   white-space: pre-wrap; }
+
+h3.talk-title {
+  color: #ff75e5; }
+
+h4.speaker {
+  color: #a6cdfa; }
+  h4.speaker .speaker-prefix {
+    color: #f2c8fd; }
 
 a.sneaky-anchor {
   display: block;
