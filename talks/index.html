@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="">
+
+    <section id="" class="portfolio success">
+      <div class="container">
+          <h2 class="text-center">Talks</h2>
+        <hr class="star-primary ">
+        <p>
+        the freshest artists from across the digital realm are coming to purplecon to drop their newest mixtapes, offering their limitless cosmic wisdom to you. reach out and take it. it's your <span class="sparkle-less">destiny</span>.
+        </p>
+        <p>
+        </p>
+      </div>
+  </section>
+  <section id="talks" class="portfolio success">
+      {% for talk in site.data.talks %}
+      <a class="sneaky-anchor" id="{{ talk.id }}">&nbsp;</a>
+      <div class="container talk">
+          <div class="talk-content">
+              <h3 class="talk-title"><span class="sparkle">{{ talk.title }}</span></h3>
+              <p class="abstract">{{ talk.description }}</p>
+              <!--
+              <p class="archive">
+                {% for link in site.data.archive %}{% if talk.id == link.id %}
+                <a class="archive-link" href="{{ link.href }}">{{ link.text }}</a>
+                {% endif %}{% endfor %}
+              </p>
+            -->
+          </div>
+          <div class="speaker">
+              <h4 class="speaker">
+                {{ talk.speaker }}</h3>
+
+             <p class="bio">{{ talk.bio}}</p>
+          </div>
+      </div>
+      {% endfor %}
+
+  </section>
+
+</div>
