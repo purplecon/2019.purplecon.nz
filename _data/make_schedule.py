@@ -1,4 +1,5 @@
 import csv
+import html
 import sys
 import string
 
@@ -24,6 +25,7 @@ with open(sys.argv[1], newline='') as csvfile:
              continue
          print(talkid)
          row.append(talkid)
+         row = map(html.escape, row)
          rows.append(row)
 
 with open('schedule.csv', 'w', newline='') as csvfile:
