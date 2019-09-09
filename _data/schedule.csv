@@ -1,22 +1,22 @@
 time,speaker_name,talk_title,Length,Talks,Padding,Breaks,,,speakername
 9:20,purplecon team,opening ritual,15,,,,,,
 9:35,sauramaia,how to human in groups,20,,,,,,sauramaia
-10:00,sera,IAM confused: a deep dive into how permissions work,15,,,,,,sera
+10:00,sera,IAM Groot (working title),15,,,,,,sera
 10:15,Shahn Harris,Embracing Empathy,20,,,,,,shahn-harris
 10:35,you!,morning tea ceremony,40,70,,40,,,
 11:15,William,*banging fists on table* STATE MACHINES STATE MACHINES,20,,,,,,william
-11:35,Mikala Easte,Risk management without slowing down,15,,,,,,mikala-easte
+11:35,Anton Black,"Against Lies, H*cking Lies",15,,,,,,anton-black
 11:50,moss,choose your own adventure: password reset,20,,,,,,moss
-12:10,bl3ep,a novice red teamer's guide to self help,20,,,,,,bl3ep
+12:10,bl3ep,a novice red teamer&#x27;s guide to self help,20,,,,,,bl3ep
 12:30,you!,l u n c h,100,75,,100,,,
-14:10,Karla,"2 Factor, 4 Humans",20,,,,,,karla
+14:10,,,20,,,,,,
 14:30,Ben Dechrai,To Identity and Beyond!,20,,,,,,ben-dechrai
-14:50,Anton Black,"Against Lies, H*cking Lies",15,,,,,,anton-black
+14:50,Mikala Easte,Risk management without slowing down,15,,,,,,mikala-easte
 15:05,Kirk,Incident Response Drills: How to play games and get good,20,,,,,,kirk
-15:25,you!,afternoon tea and hanging out,70,345,,70,,,
+15:25,you!,afternoon tea and hanging out,70,75,,70,,,
 16:35,Helen,An Introduction to Ghidra,5,,,,,,helen
 16:40,Tom Eastman,Protecting people from social media harassment.,5,,,,,,tom-eastman
-16:45,Mike Cohen,Velociraptor - Dig Deeper,5,,,,,,mike-cohen
+16:45,,,5,,,,,,
 16:50,Brendan Shaklovitz,face your fearful foes to dodge a dark and dreary phishy fate,5,,,,,,brendan-shaklovitz
 17:00,Laura Bell ,Security confessions of a small country,25,,,,,,laura-bell
 17:25,purplecon team,closing ritual,20,,,,,,
