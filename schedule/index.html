@@ -15,14 +15,14 @@ layout: default
               {% for talk in site.data.schedule %}
               <div class="schedule-grid">
                         <div class="talk-time">
-                            <span class="start-time">{{ talk.start_time }}</span>
+                            <span class="start-time">{{ talk.time }}</span>
                         </div>
-                        <div class="speaker">{{ talk.speaker }}</div>
+                        <div class="speaker">{{ talk.speaker_name}}</div>
                         <div class="title">
-                            {% if talk.id %}
-                            <a href="/talks#{{ talk.id }}">{{ talk.title}} [keynote]</a>
+                            {% if talk.speakername %}
+                            <a href="/talks#{{ talk.speakername}}">{{ talk.talk_title}} [keynote]</a>
                             {% else %}
-                            <span>{{ talk.title }}</span>
+                            <span>{{ talk.talk_title }}</span>
                             {% endif %}
                         </div>
               </div>
