@@ -1,1 +1,23 @@
-start_time,speaker,title,id
+time,speaker_name,talk_title,Length,Talks,Padding,Breaks,,,speakername
+9:20,purplecon team,opening ritual,15,,,,,,
+9:35,sauramaia,how to human in groups,20,,,,,,sauramaia
+10:00,sera,IAM Groot (working title),15,,,,,,sera
+10:15,Shahn Harris,Embracing Empathy,20,,,,,,shahn-harris
+10:35,you!,morning tea ceremony,40,70,,40,,,
+11:15,William,*banging fists on table* STATE MACHINES STATE MACHINES,20,,,,,,william
+11:35,Anton Black,"Against Lies, H*cking Lies",15,,,,,,anton-black
+11:50,moss,choose your own adventure: password reset,20,,,,,,moss
+12:10,James,Deploying Kubernetes Safer(ish),15,,,,,,james
+12:25,you!,l u n c h,100,70,,100,,,
+14:05,bl3ep,a novice red teamer&#x27;s guide to self help,20,,,,,,bl3ep
+14:25,Ben Dechrai,To Identity and Beyond!,20,,,,,,ben-dechrai
+14:45,Mikala Easte,Risk management without slowing down,15,,,,,,mikala-easte
+15:00,Kirk,Incident Response Drills: How to play games and get good,20,,,,,,kirk
+15:20,you!,afternoon tea and hanging out,70,75,,70,,,
+16:30,Helen,An Introduction to Ghidra,5,,,,,,helen
+16:35,Tom Eastman,Protecting people from social media harassment.,5,,,,,,tom-eastman
+16:40,,,5,,,,,,
+16:45,Brendan Shaklovitz,face your fearful foes to dodge a dark and dreary phishy fate,5,,,,,,brendan-shaklovitz
+17:00,Laura Bell ,Security confessions of a small country,25,,,,,,laura-bell
+17:25,purplecon team,closing ritual,20,,,,,,
+17:45,you!,freeedom,60,65,,,,,
