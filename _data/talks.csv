@@ -53,4 +53,14 @@ So I decided to make a few of my own.
 Along the way, I got to grapple with some interesting challenges, including and especially how to build a tool safe enough for use by people who have been threatened online.
 
 In this talk I explore risks you have to consider, how you mitigate them, and the ethics of the decisions you end up making.",Tom Eastman,"I&#x27;m a Python developer, DevOps consultant, system engineer (whatever that means), occasional security consultant and public speaker. I write words that control computers to tell other computers to build FAKE computers that run on DIFFERENT computers.",This is a web app development talk with an emphasis on threat analysis and writing secure code.
+brendan-shaklovitz,face your fearful foes to dodge a dark and dreary phishy fate,"after a short stint with the malicious masterminds of our red team, i&#x27;ve seen the terrifying tactics that real attackers could use against you. it&#x27;s dirty, underhanded, and quite brilliant, and it&#x27;s only fair that we level the playing field a bit by sharing some of our secrets.
+
+in this talk we&#x27;ll skip past basic tech-support scams and talk about lovingly hand-crafted &quot;spear phishing&quot; campaigns specifically targeting individuals based on publicly available information. who knew your gaming habits would be your downfall?
+
+and finally we&#x27;ll talk about some things you can do to really ruin a fledgeling evil mastermind&#x27;s day, and repurposing some strategies learned from a career in site reliability engineering to help create a psychologically safe environment where people aren&#x27;t afraid to tell you when they make mistakes.",Brendan Shaklovitz,"brendan shaklovitz has played various sysadmin and site reliability engineering roles, including sre for the security team, working on managing vulnerability scanning and endpoint monitoring systems. more recently, he&#x27;s been working with the red team to do all the evil things shared in this talk and more.","we&#x27;ll mostly be talking about using osint (open source intelligence), aka &quot;furious googling&quot; to build phishing attacks.
+
+after the talk
+* turn on 2FA everywhere: https://twofactorauth.org/
+* use strong, unique passwords for everything and store them in a password manager, such as LastPass / 1Password
+* a healthy does of paranoia"
 laura-bell,Security confessions of a small country,"We live in a small country. While geographically we&#x27;re not a pip squeek, in terms of population we&#x27;re really rather adorable. So how does being a small country affect our approach to security and how can we learn to love our little island thinking and use it as a superpower.",Laura Bell,"Security cat herder, day dreamer and mom.",Defensive thinking
