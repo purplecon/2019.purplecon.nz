@@ -13,11 +13,11 @@ State machines help us to reason about our programs, how they work, how they won
 Area and assumed knowledge:
 Area - Secure software development. 
 Assumptions - Some programming knowledge, but demos will be in Rust and C. I will not use advanced or tricky code for any demo to make it as accessible as possible.",William,"William is a senior IDM tech debt collector for SUSE. When not upside down on a stick or flipping people on mats, they can be found getting Rusty and helping people with LDAP and code.",
-anton-black,"Against Lies, H*cking Lies","Did you know that the more Blue Teamers are sent to handle a security incident, the worse that incident will be?
+anton-black,"Against Lies, H*cking Lies","did you know that the more blue teamers are sent to handle a security incident, the worse that incident will be?
 
-Using science and statistics to make decisions about how you run security is a great idea - /if/ you can interpret and represent your data accurately. But statistics is rife with potential pitfalls that can lead you to all kinds of false conclusions.
+using science and statistics to make decisions about how you run security is a great idea - 𝘪𝘧 you can interpret and represent your data accurately. but statistics is rife with potential pitfalls that can lead you to all kinds of false conclusions.
 
-Learn how to recognize and work around these problems to not only use your own data for good, but to also catch flawed analyses when you see them around you.",Anton Black,"Anton aspires to speak clearly, concisely, humorously and precisely about something or other. He dabbles in Product Security at Atlassian, and enjoys playing the other kind of keyboard.","Topic: Analysis/retrospectives
+with some help from planet earth&#x27;s own blue team, we&#x27;ll learn how to recognize and work around these problems to not only use your own data for good, but to also catch flawed analyses when you see them around you.",Anton Black,"Anton aspires to speak clearly, concisely, humorously and precisely about something or other. He dabbles in Product Security at Atlassian, and enjoys playing the other kind of keyboard.","Topic: Analysis/retrospectives
 No assumed knowledge."
 moss,choose your own adventure: password reset,"You build or are part of a team that has a thing on the web that does stuff for people. And those people would appreciate it if other people couldn&#x27;t pretend to be them on your website doing their secret squirrel stuff.
 
