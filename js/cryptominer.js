@@ -6,38 +6,41 @@ $(document).ready(function($) {
 
     console.log("uh oh, looks like somebody's........ [low voice] hacking")
 
-    $(".sparkle").sparkleh({
-        count: 40,
-        color: ["#ff0080","#ff0080","#0000FF"],
-        speed: 3,
-        overlap: 30
-    });
+    var plaintext = sessionStorage.getItem("plaintext");
 
-    $("a").sparkleh({
-        count: 2,
-        color: ["#ff0080","#ff0080","#0000FF"],
-        speed: 1,
-        overlap: 0
+    if (plaintext != "enabled") {
+        $(".sparkle").sparkleh({
+            count: 40,
+            color: ["#ff0080","#ff0080","#0000FF"],
+            speed: 3,
+            overlap: 30
+        });
 
-    });
+        $("a").sparkleh({
+            count: 2,
+            color: ["#ff0080","#ff0080","#0000FF"],
+            speed: 1,
+            overlap: 0
 
-    $(".sparkle-more").sparkleh({
-        count: 30,
-        color: ["#ff0080","#ff0080","#0000FF"],
-        speed: 10,
-        overlap: 10
-    });
+        });
 
-    $(".sparkle-less").sparkleh({
-        count: 5,
-        color: ["#ff0080","#ff0080","#0000FF"],
-        speed: 2,
-        overlap: 5
-    });
+        $(".sparkle-more").sparkleh({
+            count: 30,
+            color: ["#ff0080","#ff0080","#0000FF"],
+            speed: 10,
+            overlap: 10
+        });
 
-
-
-
+        $(".sparkle-less").sparkleh({
+            count: 5,
+            color: ["#ff0080","#ff0080","#0000FF"],
+            speed: 2,
+            overlap: 5
+        });
+    } else {
+        $('link[rel="stylesheet"], style').remove();
+        $('*').removeAttr('style');
+    }
 
     //randomly generate slogans
 
